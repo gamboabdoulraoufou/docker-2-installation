@@ -34,6 +34,8 @@ Installing Docker now gives you not just the Docker service (daemon) but also th
 ```sh  
 # add your username to the docker group
 sudo usermod -aG docker username
+
+# log out and log in again
 ```
 
 > Using the Docker Command
