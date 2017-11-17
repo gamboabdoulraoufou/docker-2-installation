@@ -110,4 +110,23 @@ docker ps
 # view all containers
 docker ps -a
 
+# stopping a running or active container
+docker stop container-id
+``` 
+
+> Pushing Docker Images to a Docker Repository
+
+To push an image to Docker Hub or any other Docker registry, you must have an account there.
+This section shows you how to push a Docker image to Docker Hub.
+To create an account on Docker Hub: https://hub.docker.com/
+
+```sh
+# log into Docker Hub
+docker login -u docker-registry-username
+
+# push your own image 
+docker push docker-registry-username/docker-image-name
+
+``` 
+
 
